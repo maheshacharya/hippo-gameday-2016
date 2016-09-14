@@ -106,5 +106,25 @@
         <sv:value>HST.Item</sv:value>
       </sv:property>
     </sv:node>
+    <sv:node sv:name="html">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:containeritemcomponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentclassname" sv:type="String">
+        <sv:value>com.dev9.hippo.components.TwitterComponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:iconpath" sv:type="String">
+        <sv:value>images/essentials/catalog-component-icons/twitter.png</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:label" sv:type="String">
+        <sv:value>HTML</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:template" sv:type="String">
+        <sv:value>twitter</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:xtype" sv:type="String">
+        <sv:value>HST.Item</sv:value>
+      </sv:property>
+    </sv:node>
   </sv:node>
 </sv:node>
