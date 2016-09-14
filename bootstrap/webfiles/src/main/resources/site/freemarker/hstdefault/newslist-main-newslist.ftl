@@ -1,4 +1,5 @@
 <#include "../include/imports.ftl">
+<@hst.setBundle basename="common.labels"/>
 
 <#-- @ftlvariable name="item" type="com.dev9.hippo.beans.NewsDocument" -->
 <#-- @ftlvariable name="pageable" type="org.onehippo.cms7.essentials.components.paging.Pageable" -->
@@ -21,7 +22,7 @@
         factor = 1;
       }
       $(this).html(
-              t.slice(0, (minimize_character_count * factor)) + '<span>... </span><a href="' + $(this).attr("data-href") + '" class="more">Read More</a>'
+              t.slice(0, (minimize_character_count * factor)) + '<span>... </span><a href="' + $(this).attr("data-href") + '" class="more"><@fmt.message key="read.more"/></a>'
       );
     });
   }
