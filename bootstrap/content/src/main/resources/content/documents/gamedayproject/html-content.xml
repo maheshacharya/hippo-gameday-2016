@@ -1341,7 +1341,6 @@ auto&lt;/code&gt;. This will allow the screen to grow but the content remain cen
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:versionable</sv:value>
-        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>b97e9731-1132-40f4-999d-1da2e64b74ba</sv:value>
@@ -1422,6 +1421,468 @@ auto&lt;/code&gt;. This will allow the screen to grow but the content remain cen
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>3d46a904-3706-47b7-a817-ad50056ad46c</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="test2">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:named</sv:value>
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>b2d4e745-e414-4cd1-b078-5c58ad50d693</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>Test2</sv:value>
+    </sv:property>
+    <sv:node sv:name="test2">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>gamedayproject:htmldocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>51ce724d-c6d2-4125-a56b-dcbfcaf6c655</sv:value>
+      </sv:property>
+      <sv:property sv:name="gamedayproject:html" sv:type="String">
+        <sv:value>&lt;!-- #######  YAY, I AM THE SOURCE EDITOR! #########--&gt;&#13;
+&lt;h1 style="color: #5e9ca0;"&gt;You can edit &lt;span style="color: #2b2301;"&gt;this demo&lt;/span&gt; text!&lt;/h1&gt;&#13;
+&lt;h2 style="color: #2e6c80;"&gt;How to use the editor:&lt;/h2&gt;&#13;
+&lt;p&gt;Paste your documents in the visual editor on the left or your HTML code in the source editor in the right. &lt;br /&gt;Edit any of the two areas and see the other changing in real time.&amp;nbsp;&lt;/p&gt;&#13;
+&lt;p&gt;Click the &lt;span style="background-color: #2b2301; color: #fff; display: inline-block; padding: 3px 10px; font-weight: bold; border-radius: 5px;"&gt;Clean&lt;/span&gt; button to clean your source code.&lt;/p&gt;&#13;
+&lt;h2 style="color: #2e6c80;"&gt;Some useful features:&lt;/h2&gt;&#13;
+&lt;ol style="list-style: none; font-size: 14px; line-height: 32px; font-weight: bold;"&gt;&#13;
+&lt;li style="clear: both;"&gt;&lt;img style="float: left;" src="https://html-online.com/img/01-interactive-connection.png" alt="interactive connection" width="45" /&gt; Interactive source editor&lt;/li&gt;&#13;
+&lt;li style="clear: both;"&gt;&lt;img style="float: left;" src="https://html-online.com/img/02-html-clean.png" alt="html cleaner" width="45" /&gt; HTML Cleaning&lt;/li&gt;&#13;
+&lt;li style="clear: both;"&gt;&lt;img style="float: left;" src="https://html-online.com/img/03-docs-to-html.png" alt="Word to html" width="45" /&gt; Word to HTML conversion&lt;/li&gt;&#13;
+&lt;li style="clear: both;"&gt;&lt;img style="float: left;" src="https://html-online.com/img/04-replace.png" alt="replace text" width="45" /&gt; Find and Replace&lt;/li&gt;&#13;
+&lt;li style="clear: both;"&gt;&lt;img style="float: left;" src="https://html-online.com/img/05-gibberish.png" alt="gibberish" width="45" /&gt; Lorem-Ipsum generator&lt;/li&gt;&#13;
+&lt;li style="clear: both;"&gt;&lt;img style="float: left;" src="https://html-online.com/img/6-table-div-html.png" alt="html table div" width="45" /&gt; Table to DIV conversion&lt;/li&gt;&#13;
+&lt;/ol&gt;&#13;
+&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/p&gt;&#13;
+&lt;h2 style="color: #2e6c80;"&gt;Cleaning options:&lt;/h2&gt;&#13;
+&lt;table class="editorDemoTable"&gt;&#13;
+&lt;thead&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Name of the feature&lt;/td&gt;&#13;
+&lt;td&gt;Example&lt;/td&gt;&#13;
+&lt;td&gt;Default&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;/thead&gt;&#13;
+&lt;tbody&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove tag attributes&lt;/td&gt;&#13;
+&lt;td&gt;&lt;img style="margin: 1px 15px;" src="images/smiley.png" alt="laughing" width="40" height="16" /&gt; (except &lt;strong&gt;img&lt;/strong&gt;-&lt;em&gt;src&lt;/em&gt; and &lt;strong&gt;a&lt;/strong&gt;-&lt;em&gt;href&lt;/em&gt;)&lt;/td&gt;&#13;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove inline styles&lt;/td&gt;&#13;
+&lt;td&gt;&lt;span style="color: green; font-size: 13px;"&gt;You &lt;strong style="color: blue; text-decoration: underline;"&gt;should never&lt;/strong&gt;&amp;nbsp;use inline styles!&lt;/span&gt;&lt;/td&gt;&#13;
+&lt;td&gt;&lt;strong style="font-size: 17px; color: #2b2301;"&gt;x&lt;/strong&gt;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove classes and IDs&lt;/td&gt;&#13;
+&lt;td&gt;&lt;span id="demoId"&gt;Use classes to &lt;strong class="demoClass"&gt;style everything&lt;/strong&gt;.&lt;/span&gt;&lt;/td&gt;&#13;
+&lt;td&gt;&lt;strong style="font-size: 17px; color: #2b2301;"&gt;x&lt;/strong&gt;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove all tags&lt;/td&gt;&#13;
+&lt;td&gt;This leaves &lt;strong style="color: blue;"&gt;only the plain&lt;/strong&gt; &lt;em&gt;text&lt;/em&gt;. &lt;img style="margin: 1px;" src="images/smiley.png" alt="laughing" width="16" height="16" /&gt;&lt;/td&gt;&#13;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove successive &amp;amp;nbsp;s&lt;/td&gt;&#13;
+&lt;td&gt;Never use non-breaking spaces&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;to set margins.&lt;/td&gt;&#13;
+&lt;td&gt;&lt;strong style="font-size: 17px; color: #2b2301;"&gt;x&lt;/strong&gt;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove empty tags&lt;/td&gt;&#13;
+&lt;td&gt;Empty tags should go!&lt;/td&gt;&#13;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove tags with one &amp;amp;nbsp;&lt;/td&gt;&#13;
+&lt;td&gt;This makes&amp;nbsp;no sense!&lt;/td&gt;&#13;
+&lt;td&gt;&lt;strong style="font-size: 17px; color: #2b2301;"&gt;x&lt;/strong&gt;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove span tags&lt;/td&gt;&#13;
+&lt;td&gt;Span tags with &lt;span style="color: green; font-size: 13px;"&gt;all styles&lt;/span&gt;&lt;/td&gt;&#13;
+&lt;td&gt;&lt;strong style="font-size: 17px; color: #2b2301;"&gt;x&lt;/strong&gt;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove images&lt;/td&gt;&#13;
+&lt;td&gt;I am an image: &lt;img src="images/smiley.png" alt="laughing" /&gt;&lt;/td&gt;&#13;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove links&lt;/td&gt;&#13;
+&lt;td&gt;&lt;a href="https://html-online.com"&gt;This is&lt;/a&gt; a link.&lt;/td&gt;&#13;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove tables&lt;/td&gt;&#13;
+&lt;td&gt;Takes everything out of the table.&lt;/td&gt;&#13;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Replace table tags with structured divs&lt;/td&gt;&#13;
+&lt;td&gt;This text is inside a table.&lt;/td&gt;&#13;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove comments&lt;/td&gt;&#13;
+&lt;td&gt;This is only visible in the source editor &lt;!-- HELLO! --&gt;&lt;/td&gt;&#13;
+&lt;td&gt;&lt;strong style="font-size: 17px; color: #2b2301;"&gt;x&lt;/strong&gt;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Encode special characters&lt;/td&gt;&#13;
+&lt;td&gt;&lt;span style="color: red; font-size: 17px;"&gt;&amp;hearts;&lt;/span&gt; &lt;strong style="font-size: 20px;"&gt;☺ ★&lt;/strong&gt; &amp;gt;&amp;lt;&lt;/td&gt;&#13;
+&lt;td&gt;&lt;strong style="font-size: 17px; color: #2b2301;"&gt;x&lt;/strong&gt;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Set new lines and text indents&lt;/td&gt;&#13;
+&lt;td&gt;Organize the tags in a nice tree view.&lt;/td&gt;&#13;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;/tbody&gt;&#13;
+&lt;/table&gt;&#13;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&#13;
+&lt;p&gt;&lt;strong&gt;Save this link into your bookmarks and share it with your friends. It is all FREE! &lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;Enjoy!&lt;/strong&gt;&lt;/p&gt;&#13;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>html-content/test2/test2[3]</sv:value>
+        <sv:value>html-content/test2/test2[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-09-14T06:39:23.547-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-09-14T06:39:24.100-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>aafe5b89-9ab0-4198-a19a-b9d508f56c15</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="test2">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>gamedayproject:htmldocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>9a7745e8-acbc-47e5-97fa-e31f8c52e860</sv:value>
+      </sv:property>
+      <sv:property sv:name="gamedayproject:html" sv:type="String">
+        <sv:value>&lt;!-- #######  YAY, I AM THE SOURCE EDITOR! #########--&gt;&#13;
+&lt;h1 style="color: #5e9ca0;"&gt;You can edit &lt;span style="color: #2b2301;"&gt;this demo&lt;/span&gt; text!&lt;/h1&gt;&#13;
+&lt;h2 style="color: #2e6c80;"&gt;How to use the editor:&lt;/h2&gt;&#13;
+&lt;p&gt;Paste your documents in the visual editor on the left or your HTML code in the source editor in the right. &lt;br /&gt;Edit any of the two areas and see the other changing in real time.&amp;nbsp;&lt;/p&gt;&#13;
+&lt;p&gt;Click the &lt;span style="background-color: #2b2301; color: #fff; display: inline-block; padding: 3px 10px; font-weight: bold; border-radius: 5px;"&gt;Clean&lt;/span&gt; button to clean your source code.&lt;/p&gt;&#13;
+&lt;h2 style="color: #2e6c80;"&gt;Some useful features:&lt;/h2&gt;&#13;
+&lt;ol style="list-style: none; font-size: 14px; line-height: 32px; font-weight: bold;"&gt;&#13;
+&lt;li style="clear: both;"&gt;&lt;img style="float: left;" src="https://html-online.com/img/01-interactive-connection.png" alt="interactive connection" width="45" /&gt; Interactive source editor&lt;/li&gt;&#13;
+&lt;li style="clear: both;"&gt;&lt;img style="float: left;" src="https://html-online.com/img/02-html-clean.png" alt="html cleaner" width="45" /&gt; HTML Cleaning&lt;/li&gt;&#13;
+&lt;li style="clear: both;"&gt;&lt;img style="float: left;" src="https://html-online.com/img/03-docs-to-html.png" alt="Word to html" width="45" /&gt; Word to HTML conversion&lt;/li&gt;&#13;
+&lt;li style="clear: both;"&gt;&lt;img style="float: left;" src="https://html-online.com/img/04-replace.png" alt="replace text" width="45" /&gt; Find and Replace&lt;/li&gt;&#13;
+&lt;li style="clear: both;"&gt;&lt;img style="float: left;" src="https://html-online.com/img/05-gibberish.png" alt="gibberish" width="45" /&gt; Lorem-Ipsum generator&lt;/li&gt;&#13;
+&lt;li style="clear: both;"&gt;&lt;img style="float: left;" src="https://html-online.com/img/6-table-div-html.png" alt="html table div" width="45" /&gt; Table to DIV conversion&lt;/li&gt;&#13;
+&lt;/ol&gt;&#13;
+&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/p&gt;&#13;
+&lt;h2 style="color: #2e6c80;"&gt;Cleaning options:&lt;/h2&gt;&#13;
+&lt;table class="editorDemoTable"&gt;&#13;
+&lt;thead&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Name of the feature&lt;/td&gt;&#13;
+&lt;td&gt;Example&lt;/td&gt;&#13;
+&lt;td&gt;Default&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;/thead&gt;&#13;
+&lt;tbody&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove tag attributes&lt;/td&gt;&#13;
+&lt;td&gt;&lt;img style="margin: 1px 15px;" src="images/smiley.png" alt="laughing" width="40" height="16" /&gt; (except &lt;strong&gt;img&lt;/strong&gt;-&lt;em&gt;src&lt;/em&gt; and &lt;strong&gt;a&lt;/strong&gt;-&lt;em&gt;href&lt;/em&gt;)&lt;/td&gt;&#13;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove inline styles&lt;/td&gt;&#13;
+&lt;td&gt;&lt;span style="color: green; font-size: 13px;"&gt;You &lt;strong style="color: blue; text-decoration: underline;"&gt;should never&lt;/strong&gt;&amp;nbsp;use inline styles!&lt;/span&gt;&lt;/td&gt;&#13;
+&lt;td&gt;&lt;strong style="font-size: 17px; color: #2b2301;"&gt;x&lt;/strong&gt;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove classes and IDs&lt;/td&gt;&#13;
+&lt;td&gt;&lt;span id="demoId"&gt;Use classes to &lt;strong class="demoClass"&gt;style everything&lt;/strong&gt;.&lt;/span&gt;&lt;/td&gt;&#13;
+&lt;td&gt;&lt;strong style="font-size: 17px; color: #2b2301;"&gt;x&lt;/strong&gt;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove all tags&lt;/td&gt;&#13;
+&lt;td&gt;This leaves &lt;strong style="color: blue;"&gt;only the plain&lt;/strong&gt; &lt;em&gt;text&lt;/em&gt;. &lt;img style="margin: 1px;" src="images/smiley.png" alt="laughing" width="16" height="16" /&gt;&lt;/td&gt;&#13;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove successive &amp;amp;nbsp;s&lt;/td&gt;&#13;
+&lt;td&gt;Never use non-breaking spaces&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;to set margins.&lt;/td&gt;&#13;
+&lt;td&gt;&lt;strong style="font-size: 17px; color: #2b2301;"&gt;x&lt;/strong&gt;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove empty tags&lt;/td&gt;&#13;
+&lt;td&gt;Empty tags should go!&lt;/td&gt;&#13;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove tags with one &amp;amp;nbsp;&lt;/td&gt;&#13;
+&lt;td&gt;This makes&amp;nbsp;no sense!&lt;/td&gt;&#13;
+&lt;td&gt;&lt;strong style="font-size: 17px; color: #2b2301;"&gt;x&lt;/strong&gt;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove span tags&lt;/td&gt;&#13;
+&lt;td&gt;Span tags with &lt;span style="color: green; font-size: 13px;"&gt;all styles&lt;/span&gt;&lt;/td&gt;&#13;
+&lt;td&gt;&lt;strong style="font-size: 17px; color: #2b2301;"&gt;x&lt;/strong&gt;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove images&lt;/td&gt;&#13;
+&lt;td&gt;I am an image: &lt;img src="images/smiley.png" alt="laughing" /&gt;&lt;/td&gt;&#13;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove links&lt;/td&gt;&#13;
+&lt;td&gt;&lt;a href="https://html-online.com"&gt;This is&lt;/a&gt; a link.&lt;/td&gt;&#13;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove tables&lt;/td&gt;&#13;
+&lt;td&gt;Takes everything out of the table.&lt;/td&gt;&#13;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Replace table tags with structured divs&lt;/td&gt;&#13;
+&lt;td&gt;This text is inside a table.&lt;/td&gt;&#13;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove comments&lt;/td&gt;&#13;
+&lt;td&gt;This is only visible in the source editor &lt;!-- HELLO! --&gt;&lt;/td&gt;&#13;
+&lt;td&gt;&lt;strong style="font-size: 17px; color: #2b2301;"&gt;x&lt;/strong&gt;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Encode special characters&lt;/td&gt;&#13;
+&lt;td&gt;&lt;span style="color: red; font-size: 17px;"&gt;&amp;hearts;&lt;/span&gt; &lt;strong style="font-size: 20px;"&gt;☺ ★&lt;/strong&gt; &amp;gt;&amp;lt;&lt;/td&gt;&#13;
+&lt;td&gt;&lt;strong style="font-size: 17px; color: #2b2301;"&gt;x&lt;/strong&gt;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Set new lines and text indents&lt;/td&gt;&#13;
+&lt;td&gt;Organize the tags in a nice tree view.&lt;/td&gt;&#13;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;/tbody&gt;&#13;
+&lt;/table&gt;&#13;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&#13;
+&lt;p&gt;&lt;strong&gt;Save this link into your bookmarks and share it with your friends. It is all FREE! &lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;Enjoy!&lt;/strong&gt;&lt;/p&gt;&#13;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>html-content/test2/test2[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-09-14T06:39:23.547-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-09-14T06:39:28.001-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>aafe5b89-9ab0-4198-a19a-b9d508f56c15</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="test2">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>gamedayproject:htmldocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>0e207afb-b0a1-45b0-a137-8dcbbaaac92a</sv:value>
+      </sv:property>
+      <sv:property sv:name="gamedayproject:html" sv:type="String">
+        <sv:value>&lt;!-- #######  YAY, I AM THE SOURCE EDITOR! #########--&gt;&#13;
+&lt;h1 style="color: #5e9ca0;"&gt;You can edit &lt;span style="color: #2b2301;"&gt;this demo&lt;/span&gt; text!&lt;/h1&gt;&#13;
+&lt;h2 style="color: #2e6c80;"&gt;How to use the editor:&lt;/h2&gt;&#13;
+&lt;p&gt;Paste your documents in the visual editor on the left or your HTML code in the source editor in the right. &lt;br /&gt;Edit any of the two areas and see the other changing in real time.&amp;nbsp;&lt;/p&gt;&#13;
+&lt;p&gt;Click the &lt;span style="background-color: #2b2301; color: #fff; display: inline-block; padding: 3px 10px; font-weight: bold; border-radius: 5px;"&gt;Clean&lt;/span&gt; button to clean your source code.&lt;/p&gt;&#13;
+&lt;h2 style="color: #2e6c80;"&gt;Some useful features:&lt;/h2&gt;&#13;
+&lt;ol style="list-style: none; font-size: 14px; line-height: 32px; font-weight: bold;"&gt;&#13;
+&lt;li style="clear: both;"&gt;&lt;img style="float: left;" src="https://html-online.com/img/01-interactive-connection.png" alt="interactive connection" width="45" /&gt; Interactive source editor&lt;/li&gt;&#13;
+&lt;li style="clear: both;"&gt;&lt;img style="float: left;" src="https://html-online.com/img/02-html-clean.png" alt="html cleaner" width="45" /&gt; HTML Cleaning&lt;/li&gt;&#13;
+&lt;li style="clear: both;"&gt;&lt;img style="float: left;" src="https://html-online.com/img/03-docs-to-html.png" alt="Word to html" width="45" /&gt; Word to HTML conversion&lt;/li&gt;&#13;
+&lt;li style="clear: both;"&gt;&lt;img style="float: left;" src="https://html-online.com/img/04-replace.png" alt="replace text" width="45" /&gt; Find and Replace&lt;/li&gt;&#13;
+&lt;li style="clear: both;"&gt;&lt;img style="float: left;" src="https://html-online.com/img/05-gibberish.png" alt="gibberish" width="45" /&gt; Lorem-Ipsum generator&lt;/li&gt;&#13;
+&lt;li style="clear: both;"&gt;&lt;img style="float: left;" src="https://html-online.com/img/6-table-div-html.png" alt="html table div" width="45" /&gt; Table to DIV conversion&lt;/li&gt;&#13;
+&lt;/ol&gt;&#13;
+&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/p&gt;&#13;
+&lt;h2 style="color: #2e6c80;"&gt;Cleaning options:&lt;/h2&gt;&#13;
+&lt;table class="editorDemoTable"&gt;&#13;
+&lt;thead&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Name of the feature&lt;/td&gt;&#13;
+&lt;td&gt;Example&lt;/td&gt;&#13;
+&lt;td&gt;Default&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;/thead&gt;&#13;
+&lt;tbody&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove tag attributes&lt;/td&gt;&#13;
+&lt;td&gt;&lt;img style="margin: 1px 15px;" src="images/smiley.png" alt="laughing" width="40" height="16" /&gt; (except &lt;strong&gt;img&lt;/strong&gt;-&lt;em&gt;src&lt;/em&gt; and &lt;strong&gt;a&lt;/strong&gt;-&lt;em&gt;href&lt;/em&gt;)&lt;/td&gt;&#13;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove inline styles&lt;/td&gt;&#13;
+&lt;td&gt;&lt;span style="color: green; font-size: 13px;"&gt;You &lt;strong style="color: blue; text-decoration: underline;"&gt;should never&lt;/strong&gt;&amp;nbsp;use inline styles!&lt;/span&gt;&lt;/td&gt;&#13;
+&lt;td&gt;&lt;strong style="font-size: 17px; color: #2b2301;"&gt;x&lt;/strong&gt;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove classes and IDs&lt;/td&gt;&#13;
+&lt;td&gt;&lt;span id="demoId"&gt;Use classes to &lt;strong class="demoClass"&gt;style everything&lt;/strong&gt;.&lt;/span&gt;&lt;/td&gt;&#13;
+&lt;td&gt;&lt;strong style="font-size: 17px; color: #2b2301;"&gt;x&lt;/strong&gt;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove all tags&lt;/td&gt;&#13;
+&lt;td&gt;This leaves &lt;strong style="color: blue;"&gt;only the plain&lt;/strong&gt; &lt;em&gt;text&lt;/em&gt;. &lt;img style="margin: 1px;" src="images/smiley.png" alt="laughing" width="16" height="16" /&gt;&lt;/td&gt;&#13;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove successive &amp;amp;nbsp;s&lt;/td&gt;&#13;
+&lt;td&gt;Never use non-breaking spaces&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;to set margins.&lt;/td&gt;&#13;
+&lt;td&gt;&lt;strong style="font-size: 17px; color: #2b2301;"&gt;x&lt;/strong&gt;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove empty tags&lt;/td&gt;&#13;
+&lt;td&gt;Empty tags should go!&lt;/td&gt;&#13;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove tags with one &amp;amp;nbsp;&lt;/td&gt;&#13;
+&lt;td&gt;This makes&amp;nbsp;no sense!&lt;/td&gt;&#13;
+&lt;td&gt;&lt;strong style="font-size: 17px; color: #2b2301;"&gt;x&lt;/strong&gt;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove span tags&lt;/td&gt;&#13;
+&lt;td&gt;Span tags with &lt;span style="color: green; font-size: 13px;"&gt;all styles&lt;/span&gt;&lt;/td&gt;&#13;
+&lt;td&gt;&lt;strong style="font-size: 17px; color: #2b2301;"&gt;x&lt;/strong&gt;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove images&lt;/td&gt;&#13;
+&lt;td&gt;I am an image: &lt;img src="images/smiley.png" alt="laughing" /&gt;&lt;/td&gt;&#13;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove links&lt;/td&gt;&#13;
+&lt;td&gt;&lt;a href="https://html-online.com"&gt;This is&lt;/a&gt; a link.&lt;/td&gt;&#13;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove tables&lt;/td&gt;&#13;
+&lt;td&gt;Takes everything out of the table.&lt;/td&gt;&#13;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Replace table tags with structured divs&lt;/td&gt;&#13;
+&lt;td&gt;This text is inside a table.&lt;/td&gt;&#13;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Remove comments&lt;/td&gt;&#13;
+&lt;td&gt;This is only visible in the source editor &lt;!-- HELLO! --&gt;&lt;/td&gt;&#13;
+&lt;td&gt;&lt;strong style="font-size: 17px; color: #2b2301;"&gt;x&lt;/strong&gt;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Encode special characters&lt;/td&gt;&#13;
+&lt;td&gt;&lt;span style="color: red; font-size: 17px;"&gt;&amp;hearts;&lt;/span&gt; &lt;strong style="font-size: 20px;"&gt;☺ ★&lt;/strong&gt; &amp;gt;&amp;lt;&lt;/td&gt;&#13;
+&lt;td&gt;&lt;strong style="font-size: 17px; color: #2b2301;"&gt;x&lt;/strong&gt;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;tr&gt;&#13;
+&lt;td&gt;Set new lines and text indents&lt;/td&gt;&#13;
+&lt;td&gt;Organize the tags in a nice tree view.&lt;/td&gt;&#13;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;&#13;
+&lt;/tr&gt;&#13;
+&lt;/tbody&gt;&#13;
+&lt;/table&gt;&#13;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&#13;
+&lt;p&gt;&lt;strong&gt;Save this link into your bookmarks and share it with your friends. It is all FREE! &lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;Enjoy!&lt;/strong&gt;&lt;/p&gt;&#13;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>html-content/test2/test2[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-09-14T06:39:23.547-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-09-14T06:39:28.001-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2016-09-14T06:39:31.354-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>aafe5b89-9ab0-4198-a19a-b9d508f56c15</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>en</sv:value>
