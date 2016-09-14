@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:esv="http://www.onehippo.org/jcr/xmlimport" sv:name="cms" esv:merge="combine">
+  <sv:node sv:name="cms-static" esv:merge="combine">
+    <sv:node sv:name="myCustomPerspective" esv:merge="combine">
+      <sv:node sv:name="config">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>frontend:pluginconfig</sv:value>
+        </sv:property>
+        <sv:property sv:name="redirect.server" sv:type="String">
+          <sv:value>http://ec2-54-175-108-167.compute-1.amazonaws.com:8080/site/redirect</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="cms-services" esv:merge="combine">
+    <sv:node sv:name="galleryProcessorService" esv:merge="combine">
+      <sv:node sv:name="gamedayproject:featured">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>frontend:pluginconfig</sv:value>
+        </sv:property>
+        <sv:property sv:name="compression" sv:type="Double">
+          <sv:value>1.0</sv:value>
+        </sv:property>
+        <sv:property sv:name="height" sv:type="Long">
+          <sv:value>420</sv:value>
+        </sv:property>
+        <sv:property sv:name="optimize" sv:type="String">
+          <sv:value>quality</sv:value>
+        </sv:property>
+        <sv:property sv:name="upscaling" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="width" sv:type="Long">
+          <sv:value>420</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

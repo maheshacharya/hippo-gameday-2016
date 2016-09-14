@@ -1,0 +1,30 @@
+<html class="no-js" lang=""><head><meta charset="utf-8"><meta name="description" content=""><meta name="viewport" content="width=device-width,initial-scale=1"><title>Hippo Connect 2016 Gameday Server</title><link rel="apple-touch-icon" href="apple-touch-icon.png"><link rel="stylesheet" href="styles/main.css"><script src="/bower_components/modernizr/modernizr.js"></script><script src="/bower_components/jquery/dist/jquery.js"></script><!-- endbuild --><script>var page = "http://" + location.hostname + ":8080/site/roster";
+    $(document).ready(function () {
+
+      setTimeout(function () {
+        checkContent();
+      }, 5000);
+
+
+    });
+
+    function loadPage() {
+      $.ajax({
+        url: page
+      }).done(function (data) {
+        $("#content").html(data);
+      })
+    }
+
+    function checkContent() {
+      window.setInterval(function () {
+
+        var content = $("#content").html();
+        if (content === '') {
+          loadPage();
+        } else {
+          window.location = "http://localhost:8080/cms/"
+        }
+
+      }, 1000);
+    }</script></head><body><div id="content"></div></body></html>

@@ -1,0 +1,470 @@
+{
+  "hippo:templates":   {
+    "en":     {
+      "new-banner-folder": "new banner folder",
+      "new-video-folder": "new video folder",
+      "new-banner-document": "new banner document",
+      "new-faq-item-folder": "new FAQ item folder",
+      "new-faq-list": "new FAQ list",
+      "new-html-document": "New HTML Document",
+      "new-content-document": "new content document",
+      "new-news-document": "new news item",
+      "new-resource-bundle": "new resource bundle",
+      "new-video-document": "new video",
+      "new-faq-item": "new FAQ item",
+      "new-news-folder": "new news item folder",
+      "new-untranslated-folder": "new untranslated folder",
+      "new-blog-document": "new blog post",
+      "new-html-folder": "New HTML Folder",
+      "new-poll-document": "new poll document",
+      "new-content-folder": "new content folder",
+      "new-gamedayproject-gamedayImageset-folder": "new folder",
+      "new-roster-folder": "New Roster Folder",
+      "new-faq-list-document-folder": "new FAQ list folder",
+      "new-gamedayproject-featured-image": "New Image",
+      "new-product-document": "New Product Document",
+      "new-gamedayproject-featured-folder": "new folder",
+      "new-roster-document": "New Roster Document",
+      "new-product-folder": "New Product Folder",
+      "new-gamedayproject-gamedayImageset-image": "New Image",
+      "new-blog-folder": "new blog folder",
+      "new-blogauthor-folder": "new blog author folder",
+      "new-poll-folder": "new poll folder",
+      "new-events-document": "new event",
+      "new-events-folder": "new events folder",
+      "new-blogauthor-document": "new blog author"
+    },
+    "nl":     {
+      "new-video-folder": "nieuwe videomap",
+      "new-banner-folder": "nieuwe banner map",
+      "new-faq-item-folder": "nieuwe FAQ item map",
+      "new-banner-document": "nieuwe banner",
+      "new-faq-list": "nieuwe FAQ lijst",
+      "new-content-document": "nieuw content document",
+      "new-news-document": "nieuw nieuwsbericht",
+      "new-video-document": "nieuwe video",
+      "new-resource-bundle": "nieuwe resource bundle",
+      "new-faq-item": "nieuw FAQ item",
+      "new-news-folder": "nieuwe nieuwsmap",
+      "new-untranslated-folder": "nieuwe onvertaalde map",
+      "new-blog-document": "nieuwe blog post map",
+      "new-poll-document": "nieuwe poll",
+      "new-content-folder": "nieuwe contentmap",
+      "new-gamedayproject-gamedayImageset-folder": "nieuwe map",
+      "new-faq-list-document-folder": "nieuwe FAQ lijst map",
+      "new-gamedayproject-featured-image": "Nieuwe Afbeelding",
+      "new-gamedayproject-featured-folder": "nieuwe map",
+      "new-gamedayproject-gamedayImageset-image": "Nieuwe Afbeelding",
+      "new-blog-folder": "nieuwe banner map",
+      "new-blogauthor-folder": "nieuwe blog auteur map",
+      "new-poll-folder": "nieuwe pollmap",
+      "new-blogauthor-document": "nieuwe blog auteur",
+      "new-events-document": "nieuw evenement",
+      "new-events-folder": "nieuwe evenementenmap"
+    },
+    "de":     {
+      "new-banner-folder": "Neuer Banner-Ordner",
+      "new-video-folder": "Neuer Video-Ordner",
+      "new-banner-document": "Neues Banner",
+      "new-faq-item-folder": "Neues FAQ-Item-Ordner",
+      "new-faq-list": "Neue FAQ-Liste",
+      "new-news-document": "Neue News",
+      "new-content-document": "Neues Content-Document",
+      "new-resource-bundle": "Neues Resource-Bundle",
+      "new-video-document": "Neues Video",
+      "new-faq-item": "Neues FAQ-Item",
+      "new-news-folder": "Neuer News-Ordner",
+      "new-untranslated-folder": "Neuer nicht übersetzter Ordner",
+      "new-blog-document": "Neuer Blog-Post",
+      "new-poll-document": "Neue Poll",
+      "new-content-folder": "Neuer Content-Ordner",
+      "new-gamedayproject-gamedayImageset-folder": "Neuer Ordner",
+      "new-faq-list-document-folder": "Neuer FAQ-Listen-Ordner",
+      "new-gamedayproject-featured-image": "Neues Bild",
+      "new-gamedayproject-featured-folder": "Neuer Ordner",
+      "new-gamedayproject-gamedayImageset-image": "Neues Bild",
+      "new-blog-folder": "Neuer Blog-Ordner",
+      "new-blogauthor-folder": "Neuer Blogger-Ordner",
+      "new-poll-folder": "Neuer Poll-Ordner",
+      "new-events-folder": "Neuer Events-Ordner",
+      "new-events-document": "Neues Event",
+      "new-blogauthor-document": "Neuer Blogger"
+    },
+    "fr":     {
+      "new-banner-folder": "nouveau dossier bannière",
+      "new-video-folder": "nouveau dossier vidéo",
+      "new-faq-item-folder": "nouveau dossier élément FAQ",
+      "new-banner-document": "nouvelle bannière",
+      "new-faq-list": "nouvelle liste FAQ",
+      "new-news-document": "nouveau message d'info",
+      "new-content-document": "nouveau document contenu",
+      "new-resource-bundle": "nouveau resource bundle",
+      "new-video-document": "nouvelle vidéo",
+      "new-faq-item": "nouvel élément FAQ",
+      "new-news-folder": "nouveau dossier messages d'info",
+      "new-untranslated-folder": "nouveau dossier non traduit",
+      "new-blog-document": "nouveau post blog",
+      "new-poll-document": "nouveau sondage",
+      "new-content-folder": "nouveau dossier contenu",
+      "new-gamedayproject-gamedayImageset-folder": "un nouveau dossier",
+      "new-faq-list-document-folder": "nouveau dossier liste FAQ",
+      "new-gamedayproject-featured-image": "Nouvelle image",
+      "new-gamedayproject-featured-folder": "un nouveau dossier",
+      "new-gamedayproject-gamedayImageset-image": "Nouvelle image",
+      "new-blog-folder": "nouveau dossier post blog",
+      "new-blogauthor-folder": "nouveau dossier auteur blog",
+      "new-poll-folder": "nouveau dossier sondage",
+      "new-events-document": "nouvel événement",
+      "new-blogauthor-document": "nouvel auteur blog",
+      "new-events-folder": "nouveau dossier événements"
+    },
+    "zh":     {
+      "new-gamedayproject-gamedayImageset-folder": "新文件夹",
+      "new-gamedayproject-featured-image": "新图片",
+      "new-gamedayproject-featured-folder": "新文件夹",
+      "new-gamedayproject-gamedayImageset-image": "新图片"
+    }
+  },
+  "hippo:types":   {
+    "gamedayproject:bannerdocument":     {
+      "en":       {
+        "gamedayproject:image": "Image",
+        "jcr:name": "Banner",
+        "gamedayproject:content": "Content",
+        "gamedayproject:link": "Link",
+        "gamedayproject:title": "Title"
+      },
+      "nl":       {
+        "gamedayproject:image": "Afbeelding",
+        "jcr:name": "Banner",
+        "gamedayproject:content": "Inhoud",
+        "gamedayproject:link": "Link",
+        "gamedayproject:title": "Titel"
+      },
+      "fr":       {
+        "gamedayproject:image": "Image",
+        "jcr:name": "Bannière",
+        "gamedayproject:content": "Contenu",
+        "gamedayproject:link": "Lien",
+        "gamedayproject:title": "Titre"
+      },
+      "de":       {
+        "gamedayproject:image": "Abbildung",
+        "jcr:name": "Banner",
+        "gamedayproject:content": "Inhalt",
+        "gamedayproject:link": "Link",
+        "gamedayproject:title": "Titel"
+      }
+    },
+    "gamedayproject:contentdocument":     {
+      "en":       {
+        "jcr:name": "Simple Document",
+        "gamedayproject:content": "Content",
+        "gamedayproject:publicationdate": "Publication date",
+        "gamedayproject:introduction": "Introduction",
+        "gamedayproject:title": "Title"
+      },
+      "nl":       {
+        "jcr:name": "Eenvoudig Document",
+        "gamedayproject:content": "Inhoud",
+        "gamedayproject:publicationdate": "Publicatiedatum",
+        "gamedayproject:introduction": "Introductie",
+        "gamedayproject:title": "Titel"
+      },
+      "fr":       {
+        "jcr:name": "Document simple",
+        "gamedayproject:content": "Contenu",
+        "gamedayproject:publicationdate": "Date de publication",
+        "gamedayproject:introduction": "Introduction",
+        "gamedayproject:title": "Titre"
+      },
+      "de":       {
+        "gamedayproject:publicationdate": "Publikationsdatum",
+        "gamedayproject:introduction": "Einführung",
+        "jcr:name": "Einfaches Dokument",
+        "gamedayproject:content": "Inhalt",
+        "gamedayproject:title": "Titel"
+      }
+    },
+    "gamedayproject:newsdocument":     {
+      "en":       {
+        "gamedayproject:date": "Date",
+        "gamedayproject:author": "Author",
+        "gamedayproject:image": "Image",
+        "jcr:name": "News Item",
+        "gamedayproject:content": "Content",
+        "gamedayproject:location": "Location",
+        "gamedayproject:introduction": "Introduction",
+        "gamedayproject:source": "Source",
+        "gamedayproject:title": "Title"
+      },
+      "nl":       {
+        "gamedayproject:date": "Datum",
+        "gamedayproject:author": "Auteur",
+        "gamedayproject:image": "Afbeelding",
+        "jcr:name": "Nieuwsbericht",
+        "gamedayproject:content": "Inhoud",
+        "gamedayproject:location": "Locatie",
+        "gamedayproject:introduction": "Introductie",
+        "gamedayproject:source": "Bron",
+        "gamedayproject:title": "Titel"
+      },
+      "de":       {
+        "gamedayproject:date": "Datum",
+        "gamedayproject:author": "Verfasser",
+        "gamedayproject:image": "Abbildung",
+        "jcr:name": "News",
+        "gamedayproject:content": "Inhalt",
+        "gamedayproject:location": "Standort",
+        "gamedayproject:introduction": "Einführung",
+        "gamedayproject:source": "Quelle",
+        "gamedayproject:title": "Titel"
+      },
+      "fr":       {
+        "gamedayproject:date": "Date",
+        "gamedayproject:author": "Auteur",
+        "gamedayproject:image": "Image",
+        "jcr:name": "Message d'info",
+        "gamedayproject:content": "Contenu",
+        "gamedayproject:location": "Lieu",
+        "gamedayproject:introduction": "Introduction",
+        "gamedayproject:source": "Source",
+        "gamedayproject:title": "Titre"
+      }
+    },
+    "gamedayproject:eventsdocument":     {
+      "en":       {
+        "gamedayproject:date": "Start date",
+        "gamedayproject:enddate": "End date",
+        "gamedayproject:image": "Image",
+        "jcr:name": "Event",
+        "gamedayproject:content": "Content",
+        "gamedayproject:location": "Location",
+        "gamedayproject:introduction": "Introduction",
+        "gamedayproject:title": "Title"
+      },
+      "nl":       {
+        "gamedayproject:date": "Startdatum",
+        "gamedayproject:enddate": "Einddatum",
+        "gamedayproject:image": "Afbeelding",
+        "jcr:name": "Evenement",
+        "gamedayproject:content": "Inhoud",
+        "gamedayproject:location": "Locatie",
+        "gamedayproject:introduction": "Introductie",
+        "gamedayproject:title": "Titel"
+      },
+      "fr":       {
+        "gamedayproject:enddate": "Date de fin",
+        "gamedayproject:date": "Date de début",
+        "gamedayproject:image": "Image",
+        "jcr:name": "Événement",
+        "gamedayproject:content": "Contenu",
+        "gamedayproject:location": "Lieu",
+        "gamedayproject:introduction": "Introduction",
+        "gamedayproject:title": "Titre"
+      },
+      "de":       {
+        "gamedayproject:enddate": "Enddatum",
+        "gamedayproject:date": "Startdatum",
+        "gamedayproject:image": "Abbildung",
+        "jcr:name": "Event",
+        "gamedayproject:content": "Inhalt",
+        "gamedayproject:location": "Standort",
+        "gamedayproject:introduction": "Einführung",
+        "gamedayproject:title": "Titel"
+      }
+    },
+    "gamedayproject:faqitem":     {
+      "en":       {
+        "jcr:name": "FAQ Item",
+        "gamedayproject:answer": "Answer",
+        "gamedayproject:question": "Question"
+      },
+      "nl":       {
+        "jcr:name": "FAQ Item",
+        "gamedayproject:answer": "Antwoord",
+        "gamedayproject:question": "Vraag"
+      },
+      "fr":       {
+        "jcr:name": "Élément de FAQ",
+        "gamedayproject:answer": "Réponse",
+        "gamedayproject:question": "Question"
+      },
+      "de":       {
+        "jcr:name": "FAQ-Item",
+        "gamedayproject:answer": "Antwort",
+        "gamedayproject:question": "Frage"
+      }
+    },
+    "gamedayproject:faqlist":     {
+      "en":       {
+        "gamedayproject:description": "Description",
+        "gamedayproject:faqitem": "FAQ items",
+        "jcr:name": "FAQ List",
+        "gamedayproject:title": "Title"
+      },
+      "nl":       {
+        "gamedayproject:description": "Beschrijving",
+        "gamedayproject:faqitem": "FAQ items",
+        "jcr:name": "FAQ Lijst",
+        "gamedayproject:title": "Titel"
+      },
+      "fr":       {
+        "gamedayproject:description": "Description",
+        "gamedayproject:faqitem": "Éléments de FAQ",
+        "jcr:name": "Liste de FAQ",
+        "gamedayproject:title": "Titre"
+      },
+      "de":       {
+        "gamedayproject:description": "Beschreibung",
+        "gamedayproject:faqitem": "FAQ-Items",
+        "jcr:name": "FAQ-Liste",
+        "gamedayproject:title": "Titel"
+      }
+    },
+    "gamedayproject:video":     {
+      "en":       {
+        "gamedayproject:description": "Description",
+        "gamedayproject:link": "Video URL",
+        "jcr:name": "Video",
+        "gamedayproject:title": "Title"
+      },
+      "nl":       {
+        "gamedayproject:description": "Beschrijving",
+        "gamedayproject:link": "Video URL",
+        "jcr:name": "Video",
+        "gamedayproject:title": "Titel"
+      },
+      "fr":       {
+        "gamedayproject:description": "Description",
+        "gamedayproject:link": "URL vidéo",
+        "jcr:name": "Vidéo",
+        "gamedayproject:title": "Titre"
+      },
+      "de":       {
+        "gamedayproject:description": "Beschreibung",
+        "gamedayproject:link": "Video-URL",
+        "jcr:name": "Video",
+        "gamedayproject:title": "Titel"
+      }
+    },
+    "gamedayproject:blogpost":     {
+      "en":       {
+        "gamedayproject:authors": "Author(s)",
+        "jcr:name": "Blogpost",
+        "gamedayproject:authors#hint": "Link to author document(s)",
+        "gamedayproject:content": "Content",
+        "gamedayproject:categories": "Categories",
+        "gamedayproject:publicationdate": "Publication Date",
+        "gamedayproject:introduction": "Introduction",
+        "gamedayproject:title": "Title"
+      },
+      "nl":       {
+        "gamedayproject:authors": "Auteur(s)",
+        "jcr:name": "Blogpost",
+        "gamedayproject:authors#hint": "Link naar auteur document(en)",
+        "gamedayproject:content": "Inhoud",
+        "gamedayproject:categories": "Categorieën",
+        "gamedayproject:publicationdate": "Publicatiedatum",
+        "gamedayproject:introduction": "Introductie",
+        "gamedayproject:title": "Titel"
+      },
+      "fr":       {
+        "gamedayproject:authors": "Auteur(s)",
+        "jcr:name": "Post blog",
+        "gamedayproject:content": "Contenu",
+        "gamedayproject:authors#hint": "Lien vers le(s) document(s) de l'auteur",
+        "gamedayproject:categories": "Catégories",
+        "gamedayproject:publicationdate": "Date de publication",
+        "gamedayproject:introduction": "Introduction",
+        "gamedayproject:title": "Titre"
+      },
+      "de":       {
+        "gamedayproject:authors": "Verfasser",
+        "jcr:name": "Blog-Post",
+        "gamedayproject:content": "Inhalt",
+        "gamedayproject:authors#hint": "Link zu Verfasserdokument(en)",
+        "gamedayproject:categories": "Kategorien",
+        "gamedayproject:publicationdate": "Publikationsdatum",
+        "gamedayproject:introduction": "Einführung",
+        "gamedayproject:title": "Titel"
+      }
+    },
+    "gamedayproject:author":     {
+      "en":       {
+        "jcr:name": "Author",
+        "gamedayproject:fullname#hint": "Full name",
+        "gamedayproject:content": "Description",
+        "gamedayproject:photo#hint": "Photo of the author",
+        "gamedayproject:accounts": "Accounts",
+        "gamedayproject:content#hint": "Information about the author",
+        "gamedayproject:photo": "Photo",
+        "gamedayproject:accounts#hint": "External social media accounts",
+        "gamedayproject:role": "Role",
+        "gamedayproject:fullname": "Name"
+      },
+      "nl":       {
+        "jcr:name": "Auteur",
+        "gamedayproject:content": "Beschrijving",
+        "gamedayproject:fullname#hint": "Volledige naam",
+        "gamedayproject:photo#hint": "Foto van de auteur",
+        "gamedayproject:accounts": "Accounts",
+        "gamedayproject:content#hint": "Informatie over de auteur",
+        "gamedayproject:photo": "Foto",
+        "gamedayproject:accounts#hint": "Externe social media accounts",
+        "gamedayproject:role": "Rol",
+        "gamedayproject:fullname": "Naam"
+      },
+      "fr":       {
+        "jcr:name": "Auteur",
+        "gamedayproject:content": "Description",
+        "gamedayproject:photo#hint": "Photo de l'auteur",
+        "gamedayproject:fullname#hint": "Nom complet",
+        "gamedayproject:accounts": "Konten",
+        "gamedayproject:content#hint": "Informations sur l'auteur",
+        "gamedayproject:photo": "Photo",
+        "gamedayproject:accounts#hint": "Comptes médias sociaux externes",
+        "gamedayproject:role": "Rôle",
+        "gamedayproject:fullname": "Nom"
+      },
+      "de":       {
+        "jcr:name": "Verfasser",
+        "gamedayproject:fullname#hint": "Vollständiger Name",
+        "gamedayproject:photo#hint": "Foto des Verfassers",
+        "gamedayproject:content": "Beschreibung",
+        "gamedayproject:accounts": "Comptes",
+        "gamedayproject:content#hint": "Informationen über den Verfasser",
+        "gamedayproject:photo": "Foto",
+        "gamedayproject:accounts#hint": "Externe Konten soziale Medien",
+        "gamedayproject:role": "Rolle",
+        "gamedayproject:fullname": "Name"
+      }
+    },
+    "gamedayproject:account":     {
+      "en":       {
+        "gamedayproject:link": "Link",
+        "jcr:name": "Account (Compound)",
+        "gamedayproject:link#hint": "External link to the account",
+        "gamedayproject:type": "Type"
+      },
+      "nl":       {
+        "gamedayproject:link": "Link",
+        "jcr:name": "Account (Compound)",
+        "gamedayproject:link#hint": "Externe link naar het account",
+        "gamedayproject:type": "Soort"
+      },
+      "fr":       {
+        "gamedayproject:link": "Lien",
+        "jcr:name": "Compte (Compound)",
+        "gamedayproject:link#hint": "Lien externe vers le compte",
+        "gamedayproject:type": "Type"
+      },
+      "de":       {
+        "gamedayproject:link": "Link",
+        "jcr:name": "Konto (Compound)",
+        "gamedayproject:link#hint": "Externer Link zum Konto",
+        "gamedayproject:type": "Art"
+      }
+    }
+  }
+}

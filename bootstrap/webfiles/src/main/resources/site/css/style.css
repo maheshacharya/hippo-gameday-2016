@@ -1,0 +1,27 @@
+﻿/*================================
+    GOOGLE FONT
+==================================*/
+
+@import url(//fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway|Codystar); /* FREE GOOGLE FONTS */
+
+/*================================
+  GENERAL STYLES
+==================================*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.twitter-feed {
+    border: 1px solid #000;
+}
+
+.row {
+    margin-bottom: 20px;
+}

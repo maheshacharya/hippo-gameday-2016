@@ -1,0 +1,55 @@
+<'gamedayproject'='http://www.onehippo.org/gamedayproject/nt/1.0'>
+<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0.4'>
+<'hippogallery'='http://www.onehippo.org/jcr/hippogallery/nt/2.0'>
+<'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
+<'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
+<'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
+
+[gamedayproject:account] > hippo:compound, hippostd:relaxed
+  orderable
+
+[gamedayproject:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+  orderable
+
+[gamedayproject:author] > gamedayproject:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[gamedayproject:bannerdocument] > gamedayproject:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[gamedayproject:blogpost] > gamedayproject:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[gamedayproject:contentdocument] > gamedayproject:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[gamedayproject:eventsdocument] > gamedayproject:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[gamedayproject:faqitem] > gamedayproject:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[gamedayproject:faqlist] > gamedayproject:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[gamedayproject:featured] > hippogallery:imageset, hippogallery:relaxed
+  orderable
+
+[gamedayproject:gamedayImageset] > hippogallery:imageset, hippogallery:relaxed
+  orderable
+
+[gamedayproject:htmldocument] > gamedayproject:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[gamedayproject:newsdocument] > gamedayproject:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[gamedayproject:productdocument] > gamedayproject:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[gamedayproject:rosterdocument] > gamedayproject:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[gamedayproject:video] > gamedayproject:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
