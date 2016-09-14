@@ -862,11 +862,37 @@
           <sv:value>hst:containercomponent</sv:value>
         </sv:property>
         <sv:property sv:name="hst:lastmodified" sv:type="Date">
-          <sv:value>2016-09-14T06:13:00.331-04:00</sv:value>
+          <sv:value>2016-09-14T06:27:15.764-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hst:xtype" sv:type="String">
           <sv:value>HST.vBox</sv:value>
         </sv:property>
+        <sv:node sv:name="twitter">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containeritemcomponent</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:componentclassname" sv:type="String">
+            <sv:value>com.dev9.hippo.components.TwitterComponent</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:iconpath" sv:type="String">
+            <sv:value>images/essentials/catalog-component-icons/twitter.png</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:label" sv:type="String">
+            <sv:value>Twitter</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+            <sv:value>document</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+            <sv:value>html-content/video</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:template" sv:type="String">
+            <sv:value>twitter</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:xtype" sv:type="String">
+            <sv:value>HST.Item</sv:value>
+          </sv:property>
+        </sv:node>
         <sv:node sv:name="simplecontent">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hst:containeritemcomponent</sv:value>
