@@ -683,7 +683,7 @@
         <sv:value>2016-09-12T10:57:12.192-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2016-09-13T20:46:59.850-04:00</sv:value>
+        <sv:value>2016-09-22T05:20:41.219-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -700,6 +700,7 @@
         <sv:value/>
         <sv:value/>
         <sv:value/>
+        <sv:value/>
       </sv:property>
       <sv:property sv:name="resourcebundle:id" sv:type="String">
         <sv:value>common.labels</sv:value>
@@ -710,6 +711,7 @@
         <sv:value>latest.news</sv:value>
         <sv:value>welcome.message</sv:value>
         <sv:value>read.more</sv:value>
+        <sv:value>events.calendar</sv:value>
       </sv:property>
       <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
         <sv:value>Roster</sv:value>
@@ -717,13 +719,15 @@
         <sv:value>Latest News</sv:value>
         <sv:value>Welcome to Hippo Connect 2016 Gameday!</sv:value>
         <sv:value>Read more...</sv:value>
+        <sv:value>Events Calendar</sv:value>
       </sv:property>
       <sv:property sv:name="resourcebundle:messages_fr" sv:type="String" sv:multiple="true">
         <sv:value>Roster</sv:value>
         <sv:value>Entre Nous</sv:value>
         <sv:value>Les Nouvelles</sv:value>
         <sv:value>Bienvienue a Hippo Connect 2016 Gameday!</sv:value>
-        <sv:value>Lire la suite...</sv:value>
+        <sv:value>Plus</sv:value>
+        <sv:value>Calendrier des événements</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="common">
@@ -755,7 +759,7 @@
         <sv:value>2016-09-12T10:57:12.192-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2016-09-13T20:47:27.264-04:00</sv:value>
+        <sv:value>2016-09-22T05:20:59.587-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -772,6 +776,7 @@
         <sv:value/>
         <sv:value/>
         <sv:value/>
+        <sv:value/>
       </sv:property>
       <sv:property sv:name="resourcebundle:id" sv:type="String">
         <sv:value>common.labels</sv:value>
@@ -782,6 +787,7 @@
         <sv:value>latest.news</sv:value>
         <sv:value>welcome.message</sv:value>
         <sv:value>read.more</sv:value>
+        <sv:value>events.calendar</sv:value>
       </sv:property>
       <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
         <sv:value>Roster</sv:value>
@@ -789,13 +795,15 @@
         <sv:value>Latest News</sv:value>
         <sv:value>Welcome to Hippo Connect 2016 Gameday!</sv:value>
         <sv:value>Read more...</sv:value>
+        <sv:value>Events Calendar</sv:value>
       </sv:property>
       <sv:property sv:name="resourcebundle:messages_fr" sv:type="String" sv:multiple="true">
         <sv:value>Roster</sv:value>
         <sv:value>Entre Nous</sv:value>
         <sv:value>Les Nouvelles</sv:value>
         <sv:value>Bienvienue a Hippo Connect 2016 Gameday!</sv:value>
-        <sv:value>Lire la suite...</sv:value>
+        <sv:value>Plus</sv:value>
+        <sv:value>Calendrier des événements</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="common">
@@ -827,13 +835,13 @@
         <sv:value>2016-09-12T10:57:12.192-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2016-09-13T20:47:27.264-04:00</sv:value>
+        <sv:value>2016-09-22T05:20:59.587-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2016-09-13T20:47:28.871-04:00</sv:value>
+        <sv:value>2016-09-22T05:21:01.687-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>92c88fa1-f807-40c5-a2b3-70bf0e7ef8fa</sv:value>
@@ -842,6 +850,7 @@
         <sv:value>document-type-locale</sv:value>
       </sv:property>
       <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true">
+        <sv:value/>
         <sv:value/>
         <sv:value/>
         <sv:value/>
@@ -857,6 +866,7 @@
         <sv:value>latest.news</sv:value>
         <sv:value>welcome.message</sv:value>
         <sv:value>read.more</sv:value>
+        <sv:value>events.calendar</sv:value>
       </sv:property>
       <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
         <sv:value>Roster</sv:value>
@@ -864,13 +874,15 @@
         <sv:value>Latest News</sv:value>
         <sv:value>Welcome to Hippo Connect 2016 Gameday!</sv:value>
         <sv:value>Read more...</sv:value>
+        <sv:value>Events Calendar</sv:value>
       </sv:property>
       <sv:property sv:name="resourcebundle:messages_fr" sv:type="String" sv:multiple="true">
         <sv:value>Roster</sv:value>
         <sv:value>Entre Nous</sv:value>
         <sv:value>Les Nouvelles</sv:value>
         <sv:value>Bienvienue a Hippo Connect 2016 Gameday!</sv:value>
-        <sv:value>Lire la suite...</sv:value>
+        <sv:value>Plus</sv:value>
+        <sv:value>Calendrier des événements</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>

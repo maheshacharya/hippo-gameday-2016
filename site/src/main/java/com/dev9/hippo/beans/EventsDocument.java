@@ -8,7 +8,15 @@ import org.hippoecm.hst.content.beans.standard.HippoHtml;
 import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
 import com.dev9.hippo.beans.Featured;
 import com.dev9.hippo.beans.GamedayImageset;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
+import org.onehippo.cms7.essentials.components.rest.adapters.HippoHtmlAdapter;
 
+@XmlRootElement(name = "eventsdocument")
+@XmlAccessorType(XmlAccessType.NONE)
 @HippoEssentialsGenerated(internalName = "gamedayproject:eventsdocument")
 @Node(jcrType = "gamedayproject:eventsdocument")
 public class EventsDocument extends HippoDocument {
@@ -28,6 +36,7 @@ public class EventsDocument extends HippoDocument {
      * Get the title of the document.
      * @return the title
      */
+    @XmlElement
     @HippoEssentialsGenerated(internalName = "gamedayproject:title")
     public String getTitle() {
         return getProperty(TITLE);
@@ -37,6 +46,7 @@ public class EventsDocument extends HippoDocument {
      * Get the date of the document, i.e. the start date of the event.
      * @return the (start) date
      */
+    @XmlElement
     @HippoEssentialsGenerated(internalName = "gamedayproject:date")
     public Calendar getDate() {
         return getProperty(DATE);
@@ -46,6 +56,7 @@ public class EventsDocument extends HippoDocument {
      * Get the introduction of the document.
      * @return the introduction
      */
+    @XmlElement
     @HippoEssentialsGenerated(internalName = "gamedayproject:introduction")
     public String getIntroduction() {
         return getProperty(INTRODUCTION);
@@ -55,6 +66,8 @@ public class EventsDocument extends HippoDocument {
      * Get the main content of the document.
      * @return the content
      */
+    @XmlJavaTypeAdapter(HippoHtmlAdapter.class)
+    @XmlElement
     @HippoEssentialsGenerated(internalName = "gamedayproject:content")
     public HippoHtml getContent() {
         return getHippoHtml(CONTENT);
@@ -64,6 +77,7 @@ public class EventsDocument extends HippoDocument {
      * Get the location of the document.
      * @return the location
      */
+    @XmlElement
     @HippoEssentialsGenerated(internalName = "gamedayproject:location")
     public String getLocation() {
         return getProperty(LOCATION);
@@ -73,6 +87,7 @@ public class EventsDocument extends HippoDocument {
      * Get the end date of the document, i.e. the end date of the event.
      * @return the end date
      */
+    @XmlElement
     @HippoEssentialsGenerated(internalName = "gamedayproject:enddate")
     public Calendar getEndDate() {
         return getProperty(END_DATE);

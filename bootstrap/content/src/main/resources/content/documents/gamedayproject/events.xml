@@ -86,13 +86,13 @@
             <sv:value>ea9e814d-d7a9-4169-9aff-e03fadb8d657</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:date" sv:type="Date">
-            <sv:value>2013-11-12T08:00:00.000+01:00</sv:value>
+            <sv:value>2016-09-22T06:05:00.000-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:documenttype" sv:type="String">
             <sv:value>event</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:enddate" sv:type="Date">
-            <sv:value>2017-09-08T19:51:00.000-04:00</sv:value>
+            <sv:value>2016-09-23T06:05:00.000-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:introduction" sv:type="String">
             <sv:value>Start the day with a nice breakfast.</sv:value>
@@ -105,10 +105,9 @@
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
-            <sv:value>preview</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>events/2016/09/breakfast</sv:value>
+            <sv:value>events/2016/09/breakfast/breakfast[2]</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:holder" sv:type="String">
             <sv:value>admin</sv:value>
@@ -126,13 +125,181 @@
             <sv:value>2013-11-12T11:00:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2013-11-12T11:11:00.000+01:00</sv:value>
+            <sv:value>2016-09-22T06:05:27.405-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2013-11-12T12:16:00.000+01:00</sv:value>
+            <sv:value>2016-09-22T06:05:29.060-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>1e12c613-21f8-42f4-8bfb-24533003f5b9</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:node sv:name="gamedayproject:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;html&gt;
+          &lt;body&gt;
+
+          &lt;p&gt;Breakfast is served starting from 8:00 until 9:30.&lt;/p&gt;
+
+          &lt;/body&gt;
+          &lt;/html&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="gamedayproject:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>c8f03498-56eb-46c9-83b2-cf014f2e03d7</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="breakfast">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>gamedayproject:eventsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>cd59d00c-8021-478b-a3b8-8bfc3f34e0ad</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:date" sv:type="Date">
+            <sv:value>2016-09-22T06:05:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:documenttype" sv:type="String">
+            <sv:value>event</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:enddate" sv:type="Date">
+            <sv:value>2016-09-23T06:05:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:introduction" sv:type="String">
+            <sv:value>Start the day with a nice breakfast.</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:location" sv:type="String">
+            <sv:value>Room 101</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:title" sv:type="String">
+            <sv:value>Breakfast</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>events/2016/09/breakfast/breakfast</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2013-11-12T11:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2016-09-22T06:05:27.405-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>1e12c613-21f8-42f4-8bfb-24533003f5b9</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:node sv:name="gamedayproject:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;html&gt;
+          &lt;body&gt;
+
+          &lt;p&gt;Breakfast is served starting from 8:00 until 9:30.&lt;/p&gt;
+
+          &lt;/body&gt;
+          &lt;/html&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="gamedayproject:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>c8f03498-56eb-46c9-83b2-cf014f2e03d7</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="breakfast">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>gamedayproject:eventsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>19e7a489-c8f6-4968-be52-d739dc897521</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:date" sv:type="Date">
+            <sv:value>2016-09-22T06:05:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:documenttype" sv:type="String">
+            <sv:value>event</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:enddate" sv:type="Date">
+            <sv:value>2016-09-23T06:05:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:introduction" sv:type="String">
+            <sv:value>Start the day with a nice breakfast.</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:location" sv:type="String">
+            <sv:value>Room 101</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:title" sv:type="String">
+            <sv:value>Breakfast</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>events/2016/09/breakfast/breakfast[2]</sv:value>
+            <sv:value>events/2016/09/breakfast/breakfast</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2013-11-12T11:00:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2016-09-22T06:05:22.059-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>1e12c613-21f8-42f4-8bfb-24533003f5b9</sv:value>
@@ -192,13 +359,13 @@
             <sv:value>592d9da3-3444-44c6-9467-6565e8d2f44c</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:date" sv:type="Date">
-            <sv:value>2013-11-12T10:00:00.000+01:00</sv:value>
+            <sv:value>2016-09-22T06:05:00.000-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:documenttype" sv:type="String">
             <sv:value>event</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:enddate" sv:type="Date">
-            <sv:value>2017-09-08T19:51:00.000-04:00</sv:value>
+            <sv:value>2016-09-23T06:05:00.000-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:introduction" sv:type="String">
             <sv:value>After breakfast there will be an introductory speech.</sv:value>
@@ -211,10 +378,9 @@
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
-            <sv:value>preview</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>events/2016/09/introduction-speech</sv:value>
+            <sv:value>events/2016/09/introduction-speech/introduction-speech[2]</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:holder" sv:type="String">
             <sv:value>admin</sv:value>
@@ -232,13 +398,181 @@
             <sv:value>2013-11-12T11:02:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2013-11-12T11:16:00.000+01:00</sv:value>
+            <sv:value>2016-09-22T06:05:18.759-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2013-11-12T12:16:00.000+01:00</sv:value>
+            <sv:value>2016-09-22T06:05:20.469-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>dc570801-60a2-484d-9f12-94b39950fb04</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:node sv:name="gamedayproject:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;html&gt;
+          &lt;body&gt;
+
+          &lt;p&gt;Speech will be about the workshop.&lt;/p&gt;
+
+          &lt;/body&gt;
+          &lt;/html&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="gamedayproject:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>9f32434e-84e3-4150-a6f2-d89a67be2fb1</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="introduction-speech">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>gamedayproject:eventsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>439cb8bc-8437-40bb-aa34-3a169331e5da</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:date" sv:type="Date">
+            <sv:value>2016-09-22T06:05:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:documenttype" sv:type="String">
+            <sv:value>event</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:enddate" sv:type="Date">
+            <sv:value>2016-09-23T06:05:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:introduction" sv:type="String">
+            <sv:value>After breakfast there will be an introductory speech.</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:location" sv:type="String">
+            <sv:value>Room 400</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:title" sv:type="String">
+            <sv:value>Introduction speech</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>events/2016/09/introduction-speech/introduction-speech</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2013-11-12T11:02:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2016-09-22T06:05:18.759-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>dc570801-60a2-484d-9f12-94b39950fb04</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:node sv:name="gamedayproject:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;html&gt;
+          &lt;body&gt;
+
+          &lt;p&gt;Speech will be about the workshop.&lt;/p&gt;
+
+          &lt;/body&gt;
+          &lt;/html&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="gamedayproject:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>9f32434e-84e3-4150-a6f2-d89a67be2fb1</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="introduction-speech">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>gamedayproject:eventsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>1997ce06-05a5-4c73-b092-c9c2eb03577d</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:date" sv:type="Date">
+            <sv:value>2016-09-22T06:05:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:documenttype" sv:type="String">
+            <sv:value>event</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:enddate" sv:type="Date">
+            <sv:value>2016-09-23T06:05:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:introduction" sv:type="String">
+            <sv:value>After breakfast there will be an introductory speech.</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:location" sv:type="String">
+            <sv:value>Room 400</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:title" sv:type="String">
+            <sv:value>Introduction speech</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>events/2016/09/introduction-speech/introduction-speech[2]</sv:value>
+            <sv:value>events/2016/09/introduction-speech/introduction-speech</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2013-11-12T11:02:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2016-09-22T06:05:13.985-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>dc570801-60a2-484d-9f12-94b39950fb04</sv:value>
@@ -294,13 +628,13 @@
             <sv:value>376b958c-ed31-4e3a-ba2b-727d402e263e</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:date" sv:type="Date">
-            <sv:value>2013-11-12T13:00:00.000+01:00</sv:value>
+            <sv:value>2016-09-22T06:05:00.000-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:documenttype" sv:type="String">
             <sv:value>event</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:enddate" sv:type="Date">
-            <sv:value>2017-09-08T19:51:00.000-04:00</sv:value>
+            <sv:value>2016-09-23T06:05:00.000-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:introduction" sv:type="String">
             <sv:value>Workshop starts at 1:00</sv:value>
@@ -313,10 +647,9 @@
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
-            <sv:value>preview</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>events/2016/09/workshop</sv:value>
+            <sv:value>events/2016/09/workshop/workshop[2]</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:holder" sv:type="String">
             <sv:value>admin</sv:value>
@@ -334,13 +667,183 @@
             <sv:value>2013-11-12T11:16:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2013-11-12T11:18:00.000+01:00</sv:value>
+            <sv:value>2016-09-22T06:05:10.492-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2013-11-12T12:16:00.000+01:00</sv:value>
+            <sv:value>2016-09-22T06:05:12.455-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>06137e99-b2ac-486a-be07-00434ad0deeb</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:node sv:name="gamedayproject:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;html&gt;
+          &lt;body&gt;
+          &lt;strong&gt;Everybody &lt;/strong&gt;
+          &lt;p&gt;can join the workshop and start practicing what they learned during the last
+          week.&lt;/p&gt;
+
+          &lt;/body&gt;
+          &lt;/html&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="gamedayproject:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>d035387b-f9ce-49f6-bcb0-9ab6915a2d5f</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="workshop">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>gamedayproject:eventsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>5ba6dfd9-a50b-4379-bf3f-343660c96505</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:date" sv:type="Date">
+            <sv:value>2016-09-22T06:05:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:documenttype" sv:type="String">
+            <sv:value>event</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:enddate" sv:type="Date">
+            <sv:value>2016-09-23T06:05:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:introduction" sv:type="String">
+            <sv:value>Workshop starts at 1:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:location" sv:type="String">
+            <sv:value>Room 600</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:title" sv:type="String">
+            <sv:value>Workshop</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>events/2016/09/workshop/workshop</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2013-11-12T11:16:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2016-09-22T06:05:10.492-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>06137e99-b2ac-486a-be07-00434ad0deeb</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:node sv:name="gamedayproject:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;html&gt;
+          &lt;body&gt;
+          &lt;strong&gt;Everybody &lt;/strong&gt;
+          &lt;p&gt;can join the workshop and start practicing what they learned during the last
+          week.&lt;/p&gt;
+
+          &lt;/body&gt;
+          &lt;/html&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="gamedayproject:image">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>d035387b-f9ce-49f6-bcb0-9ab6915a2d5f</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="workshop">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>gamedayproject:eventsdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>d70275a6-148f-42a1-af17-e356e76e788c</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:date" sv:type="Date">
+            <sv:value>2016-09-22T06:05:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:documenttype" sv:type="String">
+            <sv:value>event</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:enddate" sv:type="Date">
+            <sv:value>2016-09-23T06:05:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:introduction" sv:type="String">
+            <sv:value>Workshop starts at 1:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:location" sv:type="String">
+            <sv:value>Room 600</sv:value>
+          </sv:property>
+          <sv:property sv:name="gamedayproject:title" sv:type="String">
+            <sv:value>Workshop</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>events/2016/09/workshop/workshop</sv:value>
+            <sv:value>events/2016/09/workshop/workshop[2]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2013-11-12T11:16:00.000+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2016-09-22T06:05:00.905-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>06137e99-b2ac-486a-be07-00434ad0deeb</sv:value>

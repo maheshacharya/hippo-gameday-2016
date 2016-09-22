@@ -260,4 +260,20 @@
       <sv:value>hst:pages/redirect</sv:value>
     </sv:property>
   </sv:node>
+  <sv:node sv:name="calendar-static">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemapitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+      <sv:value>hst:pages/calendar-static</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="swagger-api">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemapitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+      <sv:value>hst:pages/swagger-api</sv:value>
+    </sv:property>
+  </sv:node>
 </sv:node>

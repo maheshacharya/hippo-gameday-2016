@@ -154,4 +154,20 @@
       <sv:value>webfile:/freemarker/hstdefault/product-list.ftl</sv:value>
     </sv:property>
   </sv:node>
+  <sv:node sv:name="calendar-static">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/gamedayproject/static-event-calendar.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="swagger-api">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/gamedayproject/swagger-api.ftl</sv:value>
+    </sv:property>
+  </sv:node>
 </sv:node>
