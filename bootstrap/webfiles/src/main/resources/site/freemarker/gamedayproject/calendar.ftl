@@ -1,15 +1,11 @@
 <#include "../include/imports.ftl">
 <@hst.setBundle basename="common.labels"/>
 <#-- @ftlvariable name="info" type="com.dev9.hippo.components.CalendarComponentInfo" -->
-<@hst.headContribution>
+
 <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-</@hst.headContribution>
-<@hst.headContribution>
-<script src="<@hst.webfile path="/js/jquery-2.1.0.min.js"/>" type="text/javascript"></script>
-</@hst.headContribution>
-<@hst.headContribution>
+
 <script src="<@hst.webfile path="/js/macharya-calendar-min.js"/>" type="text/javascript"></script>
-</@hst.headContribution>
+
 
 
 <#assign isPreview=hstRequest.requestContext.preview/>
