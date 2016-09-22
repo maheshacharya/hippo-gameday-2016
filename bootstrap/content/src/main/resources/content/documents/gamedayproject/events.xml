@@ -86,13 +86,13 @@
             <sv:value>ea9e814d-d7a9-4169-9aff-e03fadb8d657</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:date" sv:type="Date">
-            <sv:value>2016-09-22T06:05:00.000-04:00</sv:value>
+            <sv:value>2016-09-26T06:05:00.000-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:documenttype" sv:type="String">
             <sv:value>event</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:enddate" sv:type="Date">
-            <sv:value>2016-09-23T06:05:00.000-04:00</sv:value>
+            <sv:value>2016-09-26T06:05:00.000-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:introduction" sv:type="String">
             <sv:value>Start the day with a nice breakfast.</sv:value>
@@ -125,13 +125,13 @@
             <sv:value>2013-11-12T11:00:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2016-09-22T06:05:27.405-04:00</sv:value>
+            <sv:value>2016-09-22T06:54:19.962-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2016-09-22T06:05:29.060-04:00</sv:value>
+            <sv:value>2016-09-22T06:54:21.680-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>1e12c613-21f8-42f4-8bfb-24533003f5b9</sv:value>
@@ -171,19 +171,18 @@
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:versionable</sv:value>
-            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>cd59d00c-8021-478b-a3b8-8bfc3f34e0ad</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:date" sv:type="Date">
-            <sv:value>2016-09-22T06:05:00.000-04:00</sv:value>
+            <sv:value>2016-09-26T06:05:00.000-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:documenttype" sv:type="String">
             <sv:value>event</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:enddate" sv:type="Date">
-            <sv:value>2016-09-23T06:05:00.000-04:00</sv:value>
+            <sv:value>2016-09-26T06:05:00.000-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:introduction" sv:type="String">
             <sv:value>Start the day with a nice breakfast.</sv:value>
@@ -213,7 +212,7 @@
             <sv:value>2013-11-12T11:00:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2016-09-22T06:05:27.405-04:00</sv:value>
+            <sv:value>2016-09-22T06:54:19.962-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -261,13 +260,13 @@
             <sv:value>19e7a489-c8f6-4968-be52-d739dc897521</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:date" sv:type="Date">
-            <sv:value>2016-09-22T06:05:00.000-04:00</sv:value>
+            <sv:value>2016-09-26T06:05:00.000-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:documenttype" sv:type="String">
             <sv:value>event</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:enddate" sv:type="Date">
-            <sv:value>2016-09-23T06:05:00.000-04:00</sv:value>
+            <sv:value>2016-09-26T06:05:00.000-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:introduction" sv:type="String">
             <sv:value>Start the day with a nice breakfast.</sv:value>
@@ -296,7 +295,7 @@
             <sv:value>2013-11-12T11:00:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2016-09-22T06:05:22.059-04:00</sv:value>
+            <sv:value>2016-09-22T06:54:04.754-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -444,7 +443,6 @@
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:versionable</sv:value>
-            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>439cb8bc-8437-40bb-aa34-3a169331e5da</sv:value>
@@ -628,13 +626,13 @@
             <sv:value>376b958c-ed31-4e3a-ba2b-727d402e263e</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:date" sv:type="Date">
-            <sv:value>2016-09-22T06:05:00.000-04:00</sv:value>
+            <sv:value>2016-09-29T06:05:00.000-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:documenttype" sv:type="String">
             <sv:value>event</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:enddate" sv:type="Date">
-            <sv:value>2016-09-23T06:05:00.000-04:00</sv:value>
+            <sv:value>2016-09-30T06:05:00.000-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:introduction" sv:type="String">
             <sv:value>Workshop starts at 1:00</sv:value>
@@ -667,13 +665,13 @@
             <sv:value>2013-11-12T11:16:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2016-09-22T06:05:10.492-04:00</sv:value>
+            <sv:value>2016-09-22T06:54:34.108-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2016-09-22T06:05:12.455-04:00</sv:value>
+            <sv:value>2016-09-22T06:54:35.542-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>06137e99-b2ac-486a-be07-00434ad0deeb</sv:value>
@@ -714,19 +712,18 @@
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:versionable</sv:value>
-            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>5ba6dfd9-a50b-4379-bf3f-343660c96505</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:date" sv:type="Date">
-            <sv:value>2016-09-22T06:05:00.000-04:00</sv:value>
+            <sv:value>2016-09-29T06:05:00.000-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:documenttype" sv:type="String">
             <sv:value>event</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:enddate" sv:type="Date">
-            <sv:value>2016-09-23T06:05:00.000-04:00</sv:value>
+            <sv:value>2016-09-30T06:05:00.000-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:introduction" sv:type="String">
             <sv:value>Workshop starts at 1:00</sv:value>
@@ -756,7 +753,7 @@
             <sv:value>2013-11-12T11:16:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2016-09-22T06:05:10.492-04:00</sv:value>
+            <sv:value>2016-09-22T06:54:34.108-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -805,13 +802,13 @@
             <sv:value>d70275a6-148f-42a1-af17-e356e76e788c</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:date" sv:type="Date">
-            <sv:value>2016-09-22T06:05:00.000-04:00</sv:value>
+            <sv:value>2016-09-29T06:05:00.000-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:documenttype" sv:type="String">
             <sv:value>event</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:enddate" sv:type="Date">
-            <sv:value>2016-09-23T06:05:00.000-04:00</sv:value>
+            <sv:value>2016-09-30T06:05:00.000-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="gamedayproject:introduction" sv:type="String">
             <sv:value>Workshop starts at 1:00</sv:value>
@@ -840,7 +837,7 @@
             <sv:value>2013-11-12T11:16:00.000+01:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2016-09-22T06:05:00.905-04:00</sv:value>
+            <sv:value>2016-09-22T06:54:23.481-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>

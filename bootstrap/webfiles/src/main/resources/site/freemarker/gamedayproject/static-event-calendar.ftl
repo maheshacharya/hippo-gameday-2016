@@ -25,8 +25,8 @@
 
 
 <script>
-  var context = "/";
-  var restendpoint = "/data/events.json";
+  var context = "<@hst.link path="/"/>";
+  var restendpoint = "http://localhost:8080/site/rest/Calendar/events?start=8-01-2016&end=10-01-2016";
   var props_1462805813267 = {
     "width": 1200, //width of the calendar display
     "height": 800, //height of the calendar display

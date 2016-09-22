@@ -63,8 +63,8 @@ public class CalendarResource extends AbstractResource {
     public ResponseMessage events(@Context HttpServletRequest servletRequest,
                                   @Context HttpServletResponse servletResponse,
                                   @Context UriInfo uriInfo,
-                                  @DefaultValue("01-01-2016") @ApiParam(value = "expected format MM-dd-yyyy") @QueryParam("start") String startDate,
-                                  @DefaultValue("06-01-2016") @ApiParam(value = "expected format MM-dd-yyyy") @QueryParam("end") String endDate) throws ParseException, QueryException {
+                                  @DefaultValue("8-01-2016") @ApiParam(value = "expected format MM-dd-yyyy") @QueryParam("start") String startDate,
+                                  @DefaultValue("10-01-2016") @ApiParam(value = "expected format MM-dd-yyyy") @QueryParam("end") String endDate) throws ParseException, QueryException {
 
 
         HstRequestContext ctx = RequestContextProvider.get();
@@ -79,8 +79,8 @@ public class CalendarResource extends AbstractResource {
         Filter filter = query.createFilter();
 
         //add date/time filters
-        filter.addGreaterOrEqualThan(START_DATE, getCalendar(startDate));
-        filter.addLessOrEqualThan(END_DATE, getCalendar(endDate));
+        filter.addGreaterOrEqualThan(START_DATE, getCalendar(startDate.trim()));
+        filter.addLessOrEqualThan(END_DATE, getCalendar(endDate.trim()));
 
         //sort order
         query.addOrderByDescending(START_DATE);

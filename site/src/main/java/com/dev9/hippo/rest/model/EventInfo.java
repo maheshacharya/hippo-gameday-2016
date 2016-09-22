@@ -35,7 +35,7 @@ public class EventInfo implements Serializable {
      */
     public EventInfo(EventsDocument doc) {
         title = doc.getTitle();
-        startDate = dateFormat.format(doc.getDate());
+        startDate = dateFormat.format(doc.getDate().getTime());
         startTime = timeFormat.format(doc.getDate().getTime());
         endDate = dateFormat.format(doc.getEndDate().getTime());
         endTime = timeFormat.format(doc.getEndDate().getTime());
