@@ -24,12 +24,6 @@
       <version>${essentials.version}</version>
       <type>pom</type>
     </dependency>
-    <dependency>
-      <groupId>com.github.maheshacharya</groupId>
-      <artifactId>hippogameday</artifactId>
-      <version>3.0.0</version>
-      <scope>compile</scope>
-    </dependency>
   </dependencies>
   <build>
     <resources>
